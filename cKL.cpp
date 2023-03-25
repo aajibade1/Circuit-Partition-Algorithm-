@@ -407,9 +407,7 @@ void KL(sparseMatrix &spMat)
         if(cutSize < minCutSize){
             minCutSize = cutSize;
         }
-
         swip(spMat, spMat.remain[0][global_max_idx], spMat.remain[1][global_min_idx]);
-
 
         //end of iteration
         clock_t end = clock();
