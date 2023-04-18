@@ -41,7 +41,7 @@ int main(){
     int nets, nodes;
 
     ifstream fin;
-    fin.open("ibm01.hgr");
+    fin.open("./circuits/ibm01.hgr");
     getline(fin, line);
     stringstream ss(line);
     ss >> nets >> nodes;
